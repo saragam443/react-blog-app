@@ -13,7 +13,7 @@ const App = () => {
     <>
       <DataProvider>
         <Routes>
-          <Route exact path="/" element={<Layout />}>
+          <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="add-post" element={<AddPostPage />} />
             <Route path="readme" element={<About />} />
