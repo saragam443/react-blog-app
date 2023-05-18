@@ -1,0 +1,42 @@
+.edit-page {
+  margin: 2rem 0;
+}
+.edit-page form {
+  margin: 2rem 0;
+}
+.edit-page label {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.edit-page input {
+  display: block;
+  width: 100%;
+  margin: 10px 0 20px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  background: white;
+  color: #676b6d;
+}
+.edit-page textarea {
+  border: solid 1px #aacfe4;
+  display: block;
+  margin: 10px 0 20px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  width: 100%;
+  background: white;
+  color: #676b6d;
+  font-size: 15px;
+}
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .edit-page input {
+    width: 20%;
+  }
+}

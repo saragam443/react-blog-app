@@ -1,0 +1,40 @@
+.post-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.post-card h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+.post-card .post-info {
+  margin-top: 10px;
+  color: #888;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.post-card .post-content {
+  margin-top: 10px;
+  color: #2c2c2c;
+  line-height: 19px;
+}
+
+.post-card .post-content .view-more {
+  color: blue;
+}
+.post-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+.post-card .view-more:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+.post-card:hover h3 {
+  text-decoration: underline;
+}

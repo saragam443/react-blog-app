@@ -1,0 +1,54 @@
+.about {
+  color: rgb(61, 61, 61);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.about h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+.about h3 {
+  margin: 1rem 0 .5rem;
+  color: #333;
+}
+.about p {
+    line-height: 21px;
+}
+.about ul {
+    margin-left: 2rem;
+    list-style: disc;
+  }
+  .about ul li {
+    margin-bottom: 5px;
+  }
+.about ol {
+    margin-left: 2rem;
+    list-style: decimal;
+  }
+  .about ol li {
+    margin-bottom: 5px;
+  }
+  .about span {
+    font-weight: 600;
+  }
+  .about ol li code {
+    color: #333333;
+  }
+  .link {
+    margin-top: 15px;
+  }
+  .link span {
+    color: blue;
+    margin: 0 5px;
+  }
+  .link span:hover {
+    text-decoration: underline;
+  }
+
+  @media (min-width: 768px) {
+    .about {
+      width: 75%;
+    }
+
+  }

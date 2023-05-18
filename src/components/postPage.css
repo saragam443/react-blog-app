@@ -1,0 +1,39 @@
+.article-page {
+    width: 90%;
+    min-height: calc(100vh - 167px - 58px);
+
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-info {
+  margin: 10px 0;
+  font-size: 12px;
+  font-style: italic;
+  color: rgb(108, 116, 114);
+}
+
+.article-title {
+  margin: 30px 0;
+}
+.article-date {
+  font-size: 15px;
+  color: aquamarine;
+}
+.article-content {
+  margin: 20px 0;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .article-page {
+    width: 75%;
+  }
+  .article-page {
+    min-height: calc(100vh - 94px - 58px);
+  }
+
+}
